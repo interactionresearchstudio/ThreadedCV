@@ -26,7 +26,7 @@ for (i, f) in enumerate(stream):
         break
 
 fps.stop()
-print("Elapsed time: [:.2f}".format(fps.elapsed()))
+print("Elapsed time: {:.2f}".format(fps.elapsed()))
 print("Approx. FPS: {:.2f}".format(fps.fps()))
 
 stream.close()
