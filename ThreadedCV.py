@@ -47,3 +47,12 @@ print("Elapsed time: {:.2f}".format(fps.elapsed()))
 print("Approx. FPS: {:.2f}".format(fps.fps()))
 
 vs.stop()
+
+try:
+    sys.stdout.close()
+except:
+    pass
+try:
+    sys.stderr.close()
+except:
+    pass
